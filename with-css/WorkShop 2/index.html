@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My University Website</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -10,11 +11,11 @@
     <header>
         <h1>Yachay Tech <img src="images/logoU.png" alt="Yachay Tech logo" width="80"></h1>
         <nav>
-            <a href="index.html">Home</a> |
-            <a href="pages/courses.html">Courses</a> |
-            <a href="pages/schedule.html">Schedule</a> |
-            <a href="pages/contact.html">Contact</a> |
-            <a href="pages/hobbies.html">Hobbies</a> |
+            <a href="index.html">Home</a>
+            <a href="pages/courses.html">Courses</a>
+            <a href="pages/schedule.html">Schedule</a>
+            <a href="pages/contact.html">Contact</a>
+            <a href="pages/hobbies.html">Hobbies</a>
             <a href="pages/clubs.html">Clubs</a>
         </nav>
     </header>
@@ -22,14 +23,20 @@
     <main>
         <section>
             <h2>Personal Information</h2>
-            <article>
+            <article class="profile-card">
                 <h3>Student</h3>
-                <img src="images/profile.jpg" alt="Profile Photo" width="200">
-                <p><strong>Name:</strong> Harolt Steeven Farinango Palacios</p>
-                <p><strong>Major:</strong> Computer Science</p>
-                <img src="images/compu.png" alt="Computer representing Computer Science" width="300">
-                <p><strong>Year:</strong> Eighth semester</p>
-                <p><strong>Description:</strong> Students passionate about web development and programming.</p>
+                <div>
+                    <img src="images/profile.jpg" alt="Profile Photo">
+                </div>
+                <div class="profile-info">
+                    <p><strong>Name:</strong> Harolt Steeven Farinango Palacios</p>
+                    <p><strong>Major:</strong> Computer Science</p>
+                    <p><strong>Year:</strong> Eighth semester</p>
+                    <p><strong>Description:</strong> Student passionate about web development and programming.</p>
+                </div>
+                <div style="grid-column: 1 / -1; text-align: center; margin-top: 15px;">
+                    <img src="images/compu.png" alt="Computer representing Computer Science" style="max-width: 200px; box-shadow: none;">
+                </div>
             </article>
         </section>
 
@@ -48,4 +55,4 @@
     </footer>
 
 </body>
-</html> 
+</html>
