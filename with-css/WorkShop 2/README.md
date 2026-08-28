@@ -17,3 +17,4 @@ This project corresponds to Workshop 2. The main objective is to modify and enha
 - `pages/`: Contains all other internal pages (courses, schedule, contact, hobbies, clubs).
 - `images/`: Stores all the images used across the website.
 - `css/`: Contains the stylesheets (`style.css`).
+ 

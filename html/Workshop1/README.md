@@ -22,3 +22,4 @@ This project corresponds to Workshop. The main objective is to learn the fundame
 - `index.html`: Main home page.
 - `pages/`: Directory containing the secondary HTML files (`courses.html`, `schedule.html`, `contact.html`, `hobbies.html`, `clubs.html`).
 - `images/`: Directory containing all image assets used in the project.
+ 
