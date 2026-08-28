@@ -1,7 +1,7 @@
 # Workshop 1 - Basic HTML Website
 
 ## Objective
-This project corresponds to Workshop 1 of the Web Applications course (Semester II 2026). The main objective is to learn the fundamentals of HTML by creating a multipage personal website utilizing only basic HTML tags without any CSS styling.
+This project corresponds to Workshop. The main objective is to learn the fundamentals of HTML by creating a multipage personal website utilizing only basic HTML tags without any CSS styling.
 
 ## What was done?
 1. **Semantic HTML Structure**:
